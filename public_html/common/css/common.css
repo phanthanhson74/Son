@@ -1,0 +1,171 @@
+/* Color */
+html {
+  font-size: 10px;
+}
+
+body,
+td,
+th,
+input,
+textarea {
+  color: #232323;
+  font-family: 'Rufina', serif;
+  font-size: 1.6rem;
+  line-height: 28px;
+}
+
+body {
+  overflow-wrap: break-word;
+  background-color: #f6f7f9;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.img_ck {
+  font-size: 0.1rem;
+  line-height: 0;
+}
+
+/* clearfix (micro) */
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* For IE 6/7 only */
+.clearfix {
+  *zoom: 1;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:hover,
+a:hover img {
+  color: #232323;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  word-break: break-all;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+*::before, *::after {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+iframe {
+  border: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: none;
+}
+
+figure {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+picture {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+figure,
+img,
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 769px), print {
+  .show_sp {
+    display: none !important;
+  }
+  .container {
+    min-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  a[href^=tel] {
+    pointer-events: none;
+    text-decoration: none;
+    opacity: 1 !important;
+    cursor: default !important;
+  }
+  a {
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+  }
+  a:hover {
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 3.90625vw;
+  }
+  .container {
+    overflow: hidden;
+    min-height: 100vh;
+  }
+  .show_pc {
+    display: none !important;
+  }
+  .inner {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  a[href^=tel] {
+    text-decoration: none;
+  }
+  /*======== CSS CUSTOM =========*/
+}
