@@ -1,0 +1,434 @@
+@media screen and (max-width: 768px) { 
+    body{
+        font-size: 15px;
+        max-width: 100%;
+    }
+
+
+
+
+
+    .page_header{
+        width: 100%;
+    }
+    .page_header .header_container{
+        width: 100%;
+        display: block;
+    }
+    .page_header .header_container .logo_header {
+        width: 100%;
+    }
+    .page_header .header_container h1 {
+        display: flex;
+        justify-content: center;
+    }
+    .page_header .header_container .nav_menu {
+       display: flex;
+       justify-content: center;
+    }
+    .page_header .header_container .login {
+        margin-left: -133px;
+        display: flex;
+        display: none;
+    }
+    .header_container .login .log_in li {
+        /* display: block; */
+    }
+
+
+
+
+
+
+    .hero_page {
+        display: none;
+    }
+
+    .title .item_app {
+        width: 90%;
+    }
+
+
+
+    .navbar {
+        max-width: 100%;
+        margin-top: 20px;
+        height: auto;
+    }
+    .navbar .container {
+        max-width: 100%;
+    }
+    .navbar .container .list_item {
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .navbar .container .list_item .item {
+        padding: 0;
+    }
+    .container .list_item .item img {
+        width: 100%;
+    }
+    .tabs_section{
+        max-width: 100%;
+        display: nones;
+    }
+    .tabs_section .tabs_title {
+        margin-top: 0;
+    }
+    .tabs_section .tabs_content h2 {
+        font-size: 30px;
+    }
+    .tabs_section .tabs_title .tabs_type p {
+        font-size: 20px;
+    }
+
+
+
+
+
+    .tabs_sections {
+        margin-top: 0;
+    }
+    .tabs_sections .tabs_multi {
+        flex-direction: column;
+    }
+
+    .tabs_sections .tabs_multi .title_multi {
+        display: flex;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        align-content: center;
+    }
+    .tabs_sections .tabs_multi .title_multi span {
+        font-size: 30px;
+    }
+    .tabs_sections .tabs_multi figure {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .tabs_safety figure img {
+        width: 100%;
+    }
+    .tabs_multi figure img {
+        width: 100%;
+    }
+    .tabs_system figure img {
+        width: 100%;
+    }
+
+
+
+
+
+    .tabs_sections .tabs_safety {
+        flex-direction: column-reverse;
+    }
+    .tabs_sections .tabs_safety figure {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .tabs_sections .tabs_safety .title_safety {
+        display: flex;
+        margin-top: 30px!important;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        align-content: center;
+    }
+    .tabs_sections .tabs_safety .title_safety span {
+        font-size: 30px;
+    }
+
+
+
+
+    .tabs_sections .tabs_system {
+        flex-direction: column;
+    }
+    .tabs_sections .tabs_system figure {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .tabs_sections .tabs_system .title_system {
+        display: flex;
+        margin-top: 10px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        align-content: center;
+        justify-content: center;
+    }
+    .tabs_sections .tabs_system .title_system span {
+        font-size: 30px;
+    }
+
+
+
+
+
+    .features .fea_content {
+        font-size: 30px;
+    }
+    .btn-features .fea_box img {
+        max-width: 200px;
+        left: auto!important;
+    }
+
+
+
+    .card_footer {
+        padding: 35px;
+        flex-wrap: wrap;
+        justify-content: space-between!important;
+        gap:0!important;
+    }
+    /* .card_footer .card_item {
+        margin: 20px 26px;
+    } */
+    /* .card_item .card_container {
+        display: flex;
+        gap: 20px;
+    } */
+
+
+
+
+    .tabs_footer .nav_footer {
+        margin-left: 0!important;
+        gap: 15px;
+    }
+    .tabs_footer .footer_container {
+        display: block;
+    }
+    .tabs_footer .footer_container .nav_footer {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        font-size: 15px;
+        max-width: 100%;
+    }
+
+    .login {
+        padding-left: 0!important;
+    }
+    .page_header .nav_menu {
+        margin-right: 80px;
+    }
+
+    .hero_page .img {
+        padding-left: 0!important;
+    }
+
+    .container .list_item .item {
+        padding-left: 50px;
+    }
+    .tabs_sections .tabs_content {
+        text-align: center;
+    }
+    .footer_actions .card_footer {
+        gap: 75px!important;
+    }
+
+    /* .tabs_footer h2 {
+        margin-top: 0!important;
+    } */
+
+    .tabs_footer .nav_footer {
+        margin-left: 0!important;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+    .menu {
+        flex-direction: column;
+    }
+    .toggle {
+        display: block;
+    }
+    .nav_menu .menu .login_tog {
+        display: block;
+    }
+    .page_header .menu {
+        width: 125%;
+        position: absolute;
+        margin-top: -66px;
+        background-color: rgb(39, 149, 223);
+        border: 1px solid rgb(255, 255, 255);
+        font-size: 15px;
+        line-height: 2rem;
+    }
+    .page_header .nav_menu {
+        margin-bottom: 64px;
+    }
+    .nav_menu .menu li a {
+        color: rgb(7, 37, 102);
+    }
+    .navbar {
+        margin-top: 64px;
+    }
+    .tabs_sections .tabs_safety .title_safety {
+        width: 100%;
+    }
+    /* .tabs_sections .tabs_safety figure {
+        margin-top: 45px;
+    } */
+
+    .tabs_sections .tabs_system .title_system {
+        width: 100%;
+    }
+    /* .tabs_sections .tabs_system figure {
+        margin-top: 45px;
+    } */
+    .tabs_sections .tabs_multi .title_multi {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0;
+        justify-content: flex-start;;
+    }
+    .tabs_sections .tabs_safety .title_safety {
+        width: 100%;
+        margin-top: 0!important;
+        justify-content: flex-start;
+    }
+
+
+    .tabs_multi .title_multi h2 {
+        margin: 0 auto;
+    }
+    .tabs_multi .title_multi p {
+        font-size: 13px;
+    }
+    .tabs_safety .title_safety h2 {
+        margin: 0 auto;
+    }
+    .tabs_safety .title_safety p {
+        font-size: 13px;
+    }
+    .tabs_system .title_system h2 {
+        margin: 0 auto;
+    }
+    .tabs_system .title_system p {
+        font-size: 13px;
+    }
+
+
+    .tabs_section {
+        padding: 10px;
+    }
+    .tabs_section .tabs_content {
+        width: 401px!important;
+        text-align: center;
+    }
+    .tabs_sections{
+        padding: 20px;
+    }
+    .tabs_sections .tabs_content h2 {
+        font-size: 25px!important;
+    }
+
+    .tabs_sections .tabs_multi {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    .tabs_sections .tabs_safety {
+        display: flex;
+        flex-direction: column; 
+    }
+    .tabs_sections .tabs_system {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .tabs_title .tabs_type {
+        margin-top: 0;
+    }
+    .tabs_title .tabs_type p {
+        font-size: 1 rem;
+        line-height: 25px;
+    }
+
+    .features .fea_content {
+        margin-top: 0;
+    }
+    
+    .btn-features {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .btn-features .fea_box {
+        /* width: 100%; */
+        height: 380px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    .btn-features .fea_box p {
+        font-size: 30px;
+    }
+    .btn-features .fea_box img {
+        width: 100%;
+    }
+    
+
+    .tabs_footer .nav_footer li {
+        margin-left: 0!important;
+    }
+    .tabs_footer h2 {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .tabs_footer .nav_footer {
+        margin-top: 15px;
+    }
+    .page_footer {
+        margin-top: 50px;
+    }
+    .page_footer .footer_actions .card_footer {
+        padding-top: 0;
+    }
+    .footer_actions .card_footer .card_item{
+        order: 1;
+        padding-top: 15px;
+    } 
+    .tabs_footer .footer_container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}

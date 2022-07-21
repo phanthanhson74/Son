@@ -91,7 +91,7 @@ header .icon i:hover ,
 header .icon a:hover {
     color: rgb(184, 184, 206);
     transform: rotate(360deg);
-    background: lawngreen;
+    /* background: lawngreen; */
 }
 
 header .icon #menu_bar {
