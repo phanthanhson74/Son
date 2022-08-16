@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: url(../images/index_PC.png);
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrap {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#header-logo {
+    background-color: #ffffff;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 46px 0 20px 0;
+}
+#logo {
+    text-align: right;
+    line-height: 0;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.thumb {
+    list-style: none;
+    display: flex;
+    gap: 4px;
+    margin-bottom: 30px;
+
+}
+.thumb img {
+    width: 100%;
+}
+
+
+.desc {
+    background: url(../images/bg-desc.png);
+    padding: 20px 20px 20px 30px;
+    font-size: 16px;
+}
+
+.desc p {
+    color: #ffff00;
+    float: left;
+    width: 13%;
+}
+.desc span {
+    color: #ffffff;
+}
+
+.banner {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     gap: 0 30px;
+     margin-top: 30px;
+}
+
+.box-info {
+    height: 537px;
+    margin-bottom: 30px;
+    display: inline-block;
+    background: #ffffff;
+    box-shadow: 0 1px 3px 3px #c4bdae;
+}
+
+.box-info h2 {
+    padding-bottom: 10px;
+    z-index: 999;
+    position: relative;
+}
+
+.box-info h2 a {
+    text-decoration: none;
+}
+.box-info h2 a span {
+    display: block;
+    padding: 15px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.bg-blue h2 a span {
+    background-color: #4cbeee;
+}
+.bg-blue h2 {
+    background: url(../);
+}
+
+
+.img-thumb {
+    margin-top: -10px;
+}
+.img-thumb img {
+    width: 100%;
+}
+.box-info-inner {
+    margin-top: -7px;
+    padding: 20px 20px 30px 20px;
+    border-top: 1px solid #e3e4e8;
+}
+
+.box-info-inner .box-social {
+    margin: 20px 0 0 -20px;
+    list-style: none;
+}
+.box-info-inner .box-social li {
+    float: left;
+    margin: 0 0 10px 20px;
+}
+.box-info-inner .box-social li:nth-child(3) {
+    clear: left;
+}
+
+
+
+#footer {
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 5px solid red;
+    padding: 40px 0 30px 0;
+}
+
+.logo-footer {
+    float: right;
+}
+
+
+
+
+
